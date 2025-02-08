@@ -8,3 +8,9 @@ resource "null_resource" test{
         change=timestamp()
     }
 }
+
+
+output "msg" {
+
+    value = "msg from terraform"
+}
